@@ -2,12 +2,12 @@ import os
 from os import path
 import sys
 import pyqtgraph as pg  # Библиотека графиков
-from PyQt5 import uic   # Конвентирование .ui в .py
-from PyQt5.QtWidgets import QMainWindow, QStatusBar   # Окно, статус-бар
-from PyQt5.QtCore import QIODevice, QTimer  # Связы устройств, таймер
-from PyQt5.QtSerialPort import QSerialPort, QSerialPortInfo # Обработчик данных Serial, список портов
+from PyQt6 import uic   # Конвентирование .ui в .py
+from PyQt6.QtWidgets import QMainWindow, QStatusBar   # Окно, статус-бар
+from PyQt6.QtCore import QIODevice, QTimer  # Связы устройств, таймер
+from PyQt6.QtSerialPort import QSerialPort, QSerialPortInfo # Обработчик данных Serial, список портов
 
-from PyQt5.QtWidgets import QApplication    # Подключение пакет приложения
+from PyQt6.QtWidgets import QApplication    # Подключение пакет приложения
 
 from Trees import Tree
 from dialogWindow import Dialog
