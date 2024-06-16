@@ -1,7 +1,7 @@
 ﻿import typing
-from PyQt5 import QtGui
-from PyQt5.QtWidgets import QPushButton, QDialog, QLabel, QLineEdit, QFormLayout
-from PyQt5.QtCore import Qt
+from PyQt6 import QtGui
+from PyQt6.QtWidgets import QPushButton, QDialog, QLabel, QLineEdit, QFormLayout
+from PyQt6.QtCore import Qt
 
 
 class Dialog(QDialog):
